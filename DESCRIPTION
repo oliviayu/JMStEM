@@ -1,0 +1,29 @@
+Package: JMStEM
+Title: Joint modeling based on Stochastic EM Algorithm.
+Version: 1.0.1
+Authors@R: 
+    person("Tingting", "Yu", , "tingting_yu@hphci.harvard.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Joint modeling of NLME and Cox PH based on Stochastic EM Algorithm.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+  matrixcalc,
+  magrittr,
+  Deriv,
+  mcmc,
+  saemix,
+  truncnorm,
+  mclust,
+  optimx,
+  mvtnorm,
+  dplyr,
+  MASS,
+  tidyselect,
+  Matrix,
+  data.table,
+  survival
+RoxygenNote: 7.2.1
+
